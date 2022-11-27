@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário geolocal COVID-19</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div>
+        <h1>Questionário geolocal COVID-19</h1>
+        <p>O questionário tem o objetivo de transmitir informações sobre cuidados e preucações para aqueles que possuem algum sintoma da COVID-19.</p>
+        <p>Podendo ganhar cupons de desconto em eventos culturais.</p>
+    </div>
+
+    <form>
+        <fieldset>
+        <div>
+            <label>Nome</label> <br>
+            <input type="text" name="nome">
+        </div>
+        
+        <div>
+            <label>CPF</label> <br>
+            <input type="text" name="cpf">
+        </div>
+        
+        <div>
+            <label>Telefone</label> <br>
+            <input type="text" name="telefone">
+        </div>
+        
+        <div>
+            <label>E-mail</label> <br>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label>CEP</label> <br>
+            <input type="cep" name=cep">
+        </div>
+
+        <div>
+            <p>Comorbidades</p>
+            <label>Possui Comorbidade?</label><br>
+            <input type="radio" name="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="nao">
+            <label for="nao">Não</label><br>
+            <label>Viajou Recentemente?</label><br>
+            <input type="radio" name="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="nao">
+            <label for="nao">Não</label><br>
+            <label>Teve contato com algum infectado?</label><br>
+            <input type="radio" name="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="nao">
+            <label for="nao">Não</label><br>
+            <label>Esteve em locais com muitas pessoas?</label><br>
+            <input type="radio" name="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="nao">
+            <label for="nao">Não</label><br>
+        </div>
+
+    
+        <div>
+            <p>Sintomas</p>
+            <input type="checkbox" name="tosse" id="tosse">
+            <label for="tosse">Tosse</label><br>
+            <input type="checkbox" name="febre" id="febre">
+            <label for="febre">Febre</label><br>
+            <input type="checkbox" name="diarreia" id="diarreia">
+            <label for="diarreia">Diarreia</label><br>
+            <input type="checkbox" name="vermelhidão" id="vermelhidão">
+            <label for="vermelhidão">Vermelhidão</label><br>
+            <input type="checkbox" name="garganta" id="garganta">
+            <label for="garganta">Dor de garganta</label><br>
+            <input type="checkbox" name="corpo" id="corpo">
+            <label for="corpo">Dor no corpo</label><br>
+            <input type="checkbox" name="sangramento" id="sangramento">
+            <label for="sangramento">Sangramento</label><br>
+            <input type="checkbox" name="ar" id="ar">
+            <label for="ar">Falta de ar</label><br>
+            <input type="checkbox" name="tontura" id="tontura">
+            <label for="tontura">Tontura</label><br>
+            <input type="checkbox" name="cansaço" id="cansaço">
+            <label for="cansaço">Cansaço</label><br>
+            <input type="checkbox" name="perda" id="perda">
+            <label for="perda">Perda de paladar ou olfato</label><br>
+            <input type="checkbox" name="descoloracao" id="descoloracao">
+            <label for="descoloracao">Descoloração dos dedos dos pés ou das mãos</label><br>
+            <input type="checkbox" name="olhos" id="">
+            <label for="olhos">Olhos vermelhos ou irritados</label><br>
+            <input type="checkbox" name="mobilidade" id="mobilidade">
+            <label for="mobilidade">Perda da fala, mobilidade ou confusão</label><br>
+            <input type="checkbox" name="dor" id="dor">
+            <label for="dor">Dores no peito</label><br>
+            <input type="checkbox" name="outro" id="outro">
+            <label for="outro">Outro</label>
+            <input type="text" name="outro">
+            
+        </div>
+
+        <div>
+            <label for="tempo">A quanto tempo está com esses sintomas?</label><br>
+            <select name="datas">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+            <select name="opcoes">
+                <option value="dias">Dias</option>
+                <option value="semanas">Semanas</option>
+                <option value="mes">Mês</option>
+                <option value="ano">Anos</option>
+            </select>
+        </div>
+
+        <div>
+            
+        </div>
+
+    </fieldset>
+    </form>
+</body>
+</html>

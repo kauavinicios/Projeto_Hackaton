@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    text-align: center;
+    color: #616161;
+    padding: 3rem 3rem 1rem 3rem;
+}
+#header h1{
+    color: #3540A1;
+    padding-bottom: 1rem;
+}
+#forms{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-titulo{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #616161;
+}
+.itens{
+    padding: 0.5em;
+}
+.submit{
+    padding: 0.5rem;
+    
+}
+
+
